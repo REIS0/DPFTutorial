@@ -13,7 +13,7 @@ protected:
   const char *getLabel() const override { return "MyAmp"; }
   const char *getDescription() const override { return "Simple amp plugin."; }
   const char *getMaker() const override { return "REIS0"; }
-  const char *getLicense() const override { return "MIT"; }
+  const char *getLicense() const override { return "MPL-2.0"; }
   uint32_t getVersion() const override { return d_version(1, 0, 0); }
   int64_t getUniqueId() const override { return d_cconst('M', 'A', 'D', 'T'); }
 
